@@ -1,0 +1,8 @@
+I want to simplify it into 3 distinct parts. First is figuring out the value of the base, then figuring out the numerical values of each digit, and then last using system conversion to find the consolidated value. 
+First part: So I nested the loop. The first loop runs till “\0” and the second one runs till it finds and then underscore and checks for the two values after that. If its 0 and 8 its octal if its 1 and 6 then hexadecimal. The default value is 10 if nothing exits or if anything else exists as the assignment is only checking for these.
+Second part: The second part is figuring out the numerical values before the base. Again use a loop like above from the start of p to ‘\0’. If it doesn’t equal _ then if it’s 0 to 9 then the value is *p-0 otherwise A=10, B=11 ….. F=15.
+
+Part 3:  Now run the array and calculate the final value by adding values and using base value conversion learned in CS164. 
+
+I’ve also coded my power function for base value conversion.
+I’ve also used print function provided to me instead of using printf
