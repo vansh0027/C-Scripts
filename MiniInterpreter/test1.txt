@@ -1,0 +1,13 @@
+#!./interpreter
+set x to 12
+set y to 3
+print y
+add x to y
+print y
+set z to 6
+divide y by z
+print y
+multiply y by z
+print y
+subtract y from z
+print z

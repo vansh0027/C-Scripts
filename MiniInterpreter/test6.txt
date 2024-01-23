@@ -1,0 +1,10 @@
+#!./interpreter
+set a to 40
+set b to   10
+#hello
+#hello
+divide a by b
+divide    b by a
+    print b
+print      a 
+print a

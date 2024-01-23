@@ -1,0 +1,11 @@
+#!./interpreter
+set a to 10
+set b to 5
+#hello
+#hello
+add a to b
+add b to a
+print b
+print  a 
+print a         
+      print b
